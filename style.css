@@ -1,0 +1,500 @@
+/*
+Theme Name: Ideali 
+Author: Tom Kaufmann
+Description: Modeling Theme for Ideali Models Agency
+Version: 0.1
+Requires PHP: > 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ideali
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/** HTML-Elements **/
+html, body, .card-body{
+    font-weight: 300;
+    font-family: Raleway,sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    max-width: 100%;
+    color:black;
+    overflow-x: hidden;
+}
+.orange{
+    color: #f15a24;
+}
+.blue{
+    color: #2b2e3d;
+}
+.bg-orange{
+    background: #f15a24;
+}
+.bg-blue{
+    background: #2b2e3d;
+}
+#mega-menu-wrap-header-menu{
+    width: 100% !important;
+    padding-left:4% !important;
+    padding-right:4% !important;
+}
+a{
+    color:white;
+}
+p,a{
+    font-size:18px;
+}
+ul{
+    list-style-type: none;
+    padding-left:0px;
+}
+li { 
+    cursor: pointer;
+ }
+a{
+    text-decoration:none;
+}
+label{
+    width: 100%;
+}
+/** HTML-Elements End**/
+/** important classes **/
+.object-fit-none{
+    object-fit:none;
+}
+/** important classes end**/
+
+/** Colors **/
+.bg-grey{
+    background-color:#6b6b6a;
+}
+.bg-white{
+    background-color:white;
+}
+.bg-black{
+    background-color:black !important;
+}
+.list-group-item{
+    background-color: white;
+}
+/** Colors End**/
+.container-dienstleistungen{
+    min-height:auto;
+    max-height:auto;
+    height:auto;
+}
+.marketing-header{
+    position: absolute;
+    left: 49%;
+}
+.strategy-header{
+    position: absolute;
+    left: 49%;
+}
+.marketing-body{
+    margin-top: 34%;
+}
+.strategy-body{
+    margin-top: 25%;
+}
+
+.area-img{
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-name{
+    font-family: "Segoe UI", Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    max-width: 100%;
+    color:white;
+    background-color:black;
+}
+.wrapper{
+    flex:1;
+}
+.header-desktop{
+    background-color:white;
+    min-height: 14vh;
+}
+
+div.content-model
+{
+    min-width:80%;
+    max-width:80%;
+}
+.model, .category-image{
+        aspect-ratio: 4 /5;
+        object-fit: cover;  
+}
+/** this fits every type of image into the same div**/
+img.model{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px !important;
+}
+
+.category-model{
+    object-fit: cover;
+}
+
+.category-image{
+    max-height:380px;
+    min-height:380px;
+}
+
+.card-body{
+    overflow-y: hidden;
+}
+li.letter{
+    float: left;
+    margin: 2%;
+    padding: 1%;
+    font-size: 18px;
+}
+li.letter:active{
+    border:solid 1px;
+}
+
+
+.image
+{
+  position:relative;
+  width: 100%;
+  height: 300px;
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.object-fit-cover{
+    object-fit:cover;
+}
+
+.square-img{
+    max-width:15vw;
+    max-height:15vh;
+}
+.b-white{
+    background-color:white;
+}
+
+.magazincover{
+    height:100%;
+}
+
+.contact-banner{
+    background-image: url("./img/banner/banner-contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container-contact{
+    min-height:50vh;
+    min-width:50vw;
+}
+#ideali-address-location{
+    max-width: 600px;
+    max-height:400px;
+    width:100%;
+    height:400px;
+
+}
+
+.instagram-logo{
+    width:auto;
+    height:100%;
+}
+.profile-picture{
+    max-height: 100%;
+  width: auto;
+}
+
+figure.wp-block-image{
+    text-align: center!important;
+}
+.menu-header-menu-container{
+  min-height:100%;
+  text-align: center;
+  margin-top:1%;
+}
+figure.wp-block-image{
+    text-align: center!important;
+}
+
+
+ul#menu-header-menu-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+ul#menu-model-kategorie-menu > li{
+    background-color:#6b6b6a;
+    color:white;
+    margin-right: 20px;
+}
+  
+  li.menu-item {
+    float: left;
+  }
+  
+  li.menu-item a {
+    display: block;
+    text-align: center;
+    color:inherit;
+  }
+.w-10{
+    width: 10% !important;
+}
+
+.header-mobile{
+    background-color:white;
+}
+.h-75 {
+    min-height: 75vh !important;
+  }
+  a{
+    border:2px solid transparent;
+  }
+  a.picture-link{
+    border:none !important;
+  }
+
+.border-hover-none:hover,.border-hover-none:focus,.border-hover-none:active{
+    border-bottom: none !important;
+}
+a.navbar-brand:hover,a.navbar-brand:focus,a.navbar-brand:active{
+    border-bottom:none;
+}
+
+.font-20{
+    font-size:20px;
+}
+#faces-absolute{
+    position: absolute;
+    left: 68%;
+    top: 54%;
+}
+#models-absolute{
+    left: 67%;
+    position: absolute;
+    top: 31%;
+    color: black !important;
+}
+#makeup-absolute{
+    position: absolute;
+    left: 15%;
+    top: 38%;
+}
+#dienstleistungen-absolute{
+    position: absolute;
+    left: 32%;
+    top: 25%;
+}
+textarea, input, select{
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    width:100%;
+    min-height: 40px;
+    padding: 13px;
+}
+.border-radius-0{
+    border-radius:0px;
+}
+
+.font-black{
+    color:black;
+}
+.info-models{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width:0px;
+    opacity: 0;
+    background-color: rgba(0,0,0,.8);
+    transition: opacity 0.5s linear;  
+}
+.info-dienstleister{
+    position:absolute;
+    width:100%;
+}
+img.dienstleister{
+    float: left;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+.dienstleister-info{
+    max-height:150px;
+    min-height:150px;
+}
+.model:hover .info-models{
+    width:100%;
+    position:absolute;
+    opacity: 1;
+    background-color: rgba(0,0,0,.8);
+}
+.dienstleister-container{
+    width:600px;
+    height:auto;
+}
+.text-gray{
+    color: #6b6b6a;
+}
+<
+.container-category{
+    min-height:75vh;
+}
+.bullet{
+    list-style-type: disc;
+    line-height:1.75;
+}
+#message{
+    height:150px;
+}
+.container-dienstleistungen{
+    height:auto;
+}
+
+ a.link {
+    border-bottom: 2px solid !important;
+    color:inherit;
+}
+
+/**
+Overrides
+**/
+
+.asl_res_url{
+    color:black !important;
+}
+.asl_w_container {
+    min-width: inherit !important;
+  }
+
+input[type='radio'] {
+        accent-color: black;
+}
+
+input[type='radio']:checked:before {
+    background:black;
+}
+
+/**********Responsive Shit **********/
+@media only screen and (max-width: 600px) {
+    #banner-faces{
+        background-image:  url("./img/banner/faces.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+        
+    }
+    #banner-models{
+        background-image:  url("./img/banner/models.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+    }
+    #banner-makeup{
+        background-image:  url("./img/banner/makeup.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+    }
+    #banner-dienstleistungen{
+        background-image:  url("./img/banner/dienstleistungen.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:600px;
+        background-position: auto;
+    }
+    .carousel-item-our-identity{
+        min-height:300px;
+    }
+    a:hover, a:focus, a:active, .mega-current-menu-item {
+        border-bottom:none !important;
+        color:inherit;
+    }
+    div.content-model
+{
+    min-width: 90%;
+    max-width: 90%;
+}
+   
+}
+@media only screen and (max-width: 1199px) {
+    #faces-absolute{
+        position: absolute;
+        left: 1%;
+        top: -6%;
+    }
+    #models-absolute{
+        position:absolute;
+        left: 25%;
+        top: 4%;
+    }
+    
+    #makeup-absolute{
+        position:absolute;
+        left:0%;
+        top:5%;
+    }
+    #dienstleistungen-absolute{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+    ul#menu-header-menu>li.menu-item{
+        padding-bottom: 2%;
+    }
+    li.letter{
+        font-size: 24px;
+    }
+    li.menu-item{
+        margin-bottom: 2%;
+    }
+    .marketing-header, .strategy-header{
+        position: inherit;
+    }
+    .marketing-body, .strategy-body{
+        margin-top: 0%;
+        position:inherit;
+        width:100%;
+    }
+    input[type=submit]{
+        background-color:#6b6b6a;
+        color:white;
+    }
+}
+@media only screen and(min-width: 1000px){
+    #logo{
+        max-width: 4vw;
+    }
+    input[type=submit]{
+        min-width:15%;
+        max-width:15%;
+        background-color:#6b6b6a;
+        color:white;
+    }
+}
+
+/**********Responsive Shit End **********/
+
+.form-group > h2{
+    margin-top: 2%;
+}
+a.navbar-brand{
+    border:none !important;
+}
