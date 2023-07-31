@@ -1,48 +1,49 @@
 <?php /* Template Name: Index */ ?>
 <?php get_header(); ?>
-<div class="container-fluid welcome text-center my-5">
+<main class="content">
+<div class="container-fluid welcome text-center">
     <div class="row d-flex justify-content-center pb-4">
         <div class="col-md-6 col-10">
             <h2>Rhinofit Supplements</h2>
         </div>
     </div>
-    <div class="row d-flex justify-content-center pb-5">
+    <div class="row d-flex justify-content-center">
         <div class="col-md-6 col-10">
             <p>Ihr Partner für Sport & Fitness im Nahrungsergänzungsmittelbereich</p>
         </div>
     </div>
 </div>
-<div class="container-fluid services bg-orange px-0">
+<div class="container-fluid services bg-blue px-0">
         <div class="row d-flex justify-content-center pb-4">
             <div class="col-md-6 col-10 mt-5 text-center">
                 <h2 class="text-white">Starte jetzt durch</h2>
             </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="card col-3">
-                <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/img/categories/whey-protein.png" alt="Card image cap">
-                <div class="card-body">
+            <div class="card col-3 align-items-center bg-blue">
+                <img class="card-img-top index-categories" src="<?php echo get_template_directory_uri(); ?>/img/categories/whey-protein.png" alt="Card image cap">
+                <div class="card-body white">
                 <h3>Whey-Protein</h3>
                 <p class="card-text">Entdecke unsere Whey-Proteine</p>
                 </div>
             </div>
-            <div class="card col-3">
-                <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/img/categories/booster.png" alt="Card image cap">
-                <div class="card-body">
+            <div class="card col-3 align-items-center bg-blue">
+                <img class="card-img-top index-categories" src="<?php echo get_template_directory_uri(); ?>/img/categories/booster.png" alt="Card image cap">
+                <div class="card-body white">
                 <h3>Booster</h3>
                 <p class="card-text">Entdecke unsere Booster</p>
                 </div>
             </div>
-            <div class="card col-3">
-                <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/img/categories/protein-isolate.png" alt="Card image cap">
-                <div class="card-body">
+            <div class="card col-3 align-items-center bg-blue">
+                <img class="card-img-top index-categories" src="<?php echo get_template_directory_uri(); ?>/img/categories/protein-isolate.png" alt="Card image cap">
+                <div class="card-body white">
                 <h3>Protein Isolat</h3>
                 <p class="card-text">Entdecke unsere Protein Isolate</p>
                 </div>
             </div>
-            <div class="card col-3">
-                <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/img/categories/vegan-protein.png" alt="Card image cap">
-                <div class="card-body">
+            <div class="card col-3 align-items-center bg-blue">
+                <img class="card-img-top index-categories" src="<?php echo get_template_directory_uri(); ?>/img/categories/vegan-protein.png" alt="Card image cap">
+                <div class="card-body white">
                 <h3>Vegane Produkte</h3>
                 <p class="card-text">Entdecke unsere veganen Produkte</p>
                 </div>
@@ -100,4 +101,5 @@
         </div>
     </div>
 </div>
+</main>
 <?php get_footer(); ?>

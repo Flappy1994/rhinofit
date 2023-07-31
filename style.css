@@ -20,11 +20,25 @@ html, body, .card-body{
     color:black;
     overflow-x: hidden;
 }
+main.content{
+    margin-top: 15.9vh;
+}
+.card{
+    border: none !important;
+}
+.index-categories{
+        width:  200px;
+        height: 200px;
+        object-fit: cover;
+}
 .orange{
     color: #f15a24;
 }
 .blue{
     color: #2b2e3d;
+}
+.white{
+    color:#ffffff;
 }
 .bg-orange{
     background: #f15a24;
@@ -115,8 +129,12 @@ label{
     flex:1;
 }
 .header-desktop{
-    background-color:white;
-    min-height: 14vh;
+        background-color: #ffffff;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
 }
 
 div.content-model

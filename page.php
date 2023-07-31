@@ -1,8 +1,8 @@
 <?php /* Template Name: Page Standard */ ?>
 <?php get_header(); ?>
-<div class="container-fluid container-page bg-black text-white pt-5">
+<main class="content">
+<div class="container-fluid container-page bg-black text-white">
     <div classs="row">
-        <main id="main" class="site-main" role="main">
             <div class="container-fluid container-xl px-0">
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 col-lg-8">
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-        </main><!-- .site-main -->
     </div>
 </div>
+</main>
 <?php get_footer(); ?>
