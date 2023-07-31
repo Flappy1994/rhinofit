@@ -2,14 +2,14 @@
 <?php get_header(); ?>
 <main class="content">
 <div class="container-fluid welcome text-center">
-    <div class="row d-flex justify-content-center pb-4">
+    <div class="row d-flex justify-content-center py-4">
         <div class="col-md-6 col-10">
             <h2>Rhinofit Supplements</h2>
         </div>
     </div>
     <div class="row d-flex justify-content-center">
         <div class="col-md-6 col-10">
-            <p>Ihr Partner für Sport & Fitness im Nahrungsergänzungsmittelbereich</p>
+            <p>Dein Partner für Sport & Fitness im Nahrungsergänzungsmittelbereich</p>
         </div>
     </div>
 </div>
@@ -61,16 +61,16 @@
             </div>
             <div class="carousel-inner p-5 text-center">
                 <div class="carousel-item carousel-item-our-identity bg-black text-white active p-md-5">
-                    <h2 class="">Unsere Kund*innen</h2> 
-                    <p class="mt-5 mb-0">Wir sind erfahren, verlässlich sowie jederzeit auf gute Ergebnisse fokussiert</p>
-                    <p class="mb-0">und wissen es zu schätzen, mit großartigen Kund*innen zusammenzuarbeiten.</p>
+                    <h2 class="">Unser Versprechen</h2> 
+                    <p class="mt-5 mb-0">Jedes Produkt wurde nach strengen Richtlinien für dich produziert</p>
+                    <p class="mb-0">dabei achten wir auf Qualität & ein sehr gutes Preis-Leistungsverhältnis</p>
                     <p class="pb-md-5"><br></p>
                 </div>
                 <div class="carousel-item carousel-item-our-identity bg-black text-white p-md-5">
                     <h2 class="">Unsere Motivation</h2>
-                    <p class="mt-5 mb-0">Unsere Arbeit ist unsere Leidenschaft und ein positiver Antrieb für jeden Tag.</p>
-                    <p class="mb-0">Sie bringt unser Team dazu, an jeder neuen Herausforderung zu wachsen</p>
-                    <p class="pb-md-5">und so neue Ziele zu erreichen.</p>
+                    <p class="mt-5 mb-0">Wir möchten im Bereich Sport & Fitness dein persönlicher Partner werden</p>
+                    <p class="mb-0">Wir untersützen dich mit besten Produkten</p>
+                    <p class="pb-md-5">und tragen damit zu deinem Erfolg bei</p>
                 </div>
                 <div class="carousel-item carousel-item-our-identity bg-black text-white p-md-5">
                     <h2 class="">Unser Team</h2>
